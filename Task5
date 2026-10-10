@@ -1,0 +1,28 @@
+
+public class Task5 {
+	public static void main(String[] args) {
+	
+		int orginal = 45;
+		double convertedDouble  = orginal;
+		System.out.println("****IMPLICIT TYPE CASTING****");
+		System.out.println("int orginalInt =" + orginal);
+		System.out.println("Double converted ="+ convertedDouble);
+		/* Implicit means smaller data type to large data type size
+		 * It gains decimal value
+		 */
+	
+		double value = 45.90;
+		int main = (int) value;
+		System.out.println("****EXPLICIT TYPE CASTING****");
+		System.out.println("Double value =" + value);
+		System.out.println("int main =" + main);
+		
+		/* Explicit means larger data type converts smaller data type size
+		 * It lost permanently  decimal value
+		 */
+		
+		
+		
+}
+
+}

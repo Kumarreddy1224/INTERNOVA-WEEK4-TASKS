@@ -1,0 +1,14 @@
+public class Task1 {
+	public static void main(String[] args) {
+		String studentname = "Vinodkumarreddy";
+		String collegename = "Danalakshmi srinivasan";
+		String branch = "Btech (AI&DS)";
+		
+		System.out.println("Hello World");
+		System.out.println("Student name =" + studentname);
+		System.out.println("College name =" + collegename);
+		System.out.println("Branch =" + branch);
+		System.out.println("I glad meet you sir or madam");
+	}
+
+}

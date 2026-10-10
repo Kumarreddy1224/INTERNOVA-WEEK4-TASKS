@@ -1,0 +1,27 @@
+public class Task21 {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter student name:");
+        String name = sc.nextLine();
+        System.out.println("Enter first subject marks:");
+        int subject1 = sc.nextInt();
+        System.out.println("Enter second subject marks:");
+        int subject2 = sc.nextInt();
+        System.out.println("Enter third subject marks:");
+        int subject3 = sc.nextInt();
+        int totalMarks = subject1+subject2+subject3;
+        Double percentage = (totalMarks/300.0)*100;
+
+        System.out.println("Student Name: " + name);
+        System.out.println("Total Marks: " + totalMarks);
+        System.out.println("Percentage: " + percentage);
+         if(subject1>=40 && subject2>=40 && subject3>=40) {
+           System.out.println("pass");
+        }
+        else {
+            System.out.println("fail");
+        }
+        sc.close();
+    }
+}

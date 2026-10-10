@@ -1,0 +1,31 @@
+import java.util.Scanner;
+public class Task23 {
+  static int Addition(int x, int y) {
+        return x + y;
+    }
+  static int subtraction(int x, int y) {
+        return x - y;
+  }
+ static int Mutiplicatin(int x, int y) {
+        return x * y;
+    }
+ static int Divison(int x, int y) {
+        return x / y;
+    }
+    static int Modulus(int x, int y) {
+        return x % y;
+    }
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the first number");
+        int first = sc.nextInt();
+        System.out.println("enter the second number");
+        int second = sc.nextInt();
+        System.out.println("Addition(+)=" + (first + second));
+        System.out.println("Subtraction(-)=" + (first - second));
+        System.out.println("Mutiplication(*)=" + (first * second));
+        System.out.println("Division(/)=" + (first / second));
+        System.out.println("Modulus(%)=" + (first % second));
+        sc.close();
+    }
+}
