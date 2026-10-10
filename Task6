@@ -1,0 +1,47 @@
+
+import java.util.Scanner; 
+public class Task6 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the Integer value");
+		int value = sc.nextInt();
+		System.out.println("Enter the float value");
+		float  user= sc.nextFloat();
+		System.out.println("Enter the double value");
+		double duo= sc.nextDouble();
+		System.out.println(" Integer value ="+ value);
+		System.out.println("Float value =" +user);
+		System.out.println(" Double value =" + duo);
+		
+		double into = value;                    //Type casting can be used for so many like object 
+	System.out.println("***IMPLICIT TYPE CASTING ****");//oriented inheritance ,Arthimetic  and numeric
+	System.out.println("[int ->double]");               //operators and working with collection and 
+	System.out.println("Int =" + value);                // generics (Legacy code)
+	System.out.println("Double =" + into);
+	
+	float type = value;            
+	System.out.println("[int->float]");
+	System.out.println("int =" + value);
+	System.out.println("float =" + type);
+
+	int dyes = (int) into;	
+	System.out.println("EXPLICIT TYPE CASTING");
+	System.out.println("[double -> int]");
+	System.out.println("Double =" + into);
+	System.out.println("int =" +dyes);
+	
+	int vales = (int) type;
+	System.out.println("[float -> int]");
+	System.out.println("float =" + type);
+	System.out.println("int =" + vales);
+	
+	float typer = (float) into;
+	
+	System.out.println("[double ->float]");
+	System.out.println("double =" + into);
+	System.out.println("float ="+ typer);	
+		
+		
+	}
+
+}

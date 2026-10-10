@@ -1,0 +1,29 @@
+
+import java.util.Scanner;
+public class Task3 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter your  name");
+		String name = sc.nextLine();
+		System.out.println("Enter your age");
+		int age = sc.nextInt();
+		System.out.println("Enter your college name");
+		String college = sc.nextLine();
+		sc.nextLine();
+		
+		System.out.println("Enter your branch name");
+		String branch = sc.nextLine();
+		
+		System.out.println("Enter your city ");
+		String city = sc.nextLine();
+		System.out.println("Enter the pincode");
+		int pincode = sc.nextInt();
+		
+		
+		sc.close();
+		
+		
+		
+	}
+}
